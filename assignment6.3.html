@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h3>Calculate the temperature.</h3>
+	<script type="text/javascript">
+		function cToF(celsius) {
+			var cTemp = celsius;
+			var cToFahr = (cTemp*9)/5 + 32;
+			var message = 'Temperature of 40 celsius is, ' + 'will be '+ cToFahr + '\xB0F';
+			console.log(message);
+		}
+		function fToC(fahrenheit) {
+			var fTemp = fahrenheit;
+			var fToCel = (fTemp - 32)*5/9;
+			var message = 'Temperature of 104 fahrenheit is, ' + 'will be '+ fToCel + '\xB0C';
+			console.log(message);
+		}
+		cToF(40);
+		fToC(104);
+	</script>
+
+</body>
+</html>
